@@ -3,3 +3,54 @@
   padding: 0;
   box-sizing: border-box;
 }
+html {
+  font-size: 16px;
+}
+a {
+  display:block;
+  text-decoration: none;
+}
+li {
+  list-style: none;
+}
+img {
+  display: block;
+}
+
+/* Navbar formatting */
+.navbar {
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-between;
+  background-color: rgb(70, 70, 70);
+}
+/* Main layout */
+ul li a {
+  margin: 1rem 2rem;
+  font-size: .75rem;
+  color: white;
+}
+.flex-row {
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-between;
+}
+
+.main-section {
+  margin:5em 0 0;
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: center;
+  align-items: center;
+}
+.main-buttons {
+  display: flex;
+  flex-flow: row nowrap;
+}
+.main-btn {
+  background: rgb(220,220,220);
+  padding: 1rem;
+  border-radius: .5em;
+  margin: .5rem;
+}
+/* Footer layout */
