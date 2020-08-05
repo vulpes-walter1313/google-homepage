@@ -6,41 +6,44 @@
     <title>Vosram's Google Front-page</title>
   </head>
   <body>
-    <nav>
+    <nav class="navbar">
       <!-- insert Nav elements -->
-      <ul>
-        <li>About</li>
-        <li>Store</li>
-      </ul>
-      <ul>
-        <li>Gmail</li>
-        <li>Images</li>
+      <ul class="flex-row">
+        <li><a href="#" target="_blank">About</a></li>
+        <li><a href="#" target="_blank">Store</a></li>
       </ul>
       <div class="">
-        <!-- additional menu -->
-        <!-- sign in button -->
+        <ul class="flex-row">
+          <li><a href="#" target="_blank">Gmail</a></li>
+          <li><a href="#" target="_blank">Images</a></li>
+        </ul>
+        <div class="">
+          <!-- additional menu -->
+          <!-- sign in button -->
+        </div>
       </div>
-    </nav>
-    <section>
-      <!-- main body -->
-      <img src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png" alt="Google's Logo">
-      <form class="search-form" action="index.html" method="post">
 
+    </nav>
+    <section class="main-section">
+      <!-- main body -->
+      <img class="g-logo" src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png" alt="Google's Logo">
+      <form class="search-form" action="index.html" method="post">
+        <input type="text" name="search" value="">
       </form>
       <div class="main-buttons">
         <a class="main-btn" href="#">Google Search</a>
-        <a class="main-btn" href="#">I'm Feeling Lucky  </a>
+        <a class="main-btn" href="#">I'm Feeling Lucky</a>
       </div>
 
     </section>
     <footer>
       <!-- fixed footer -->
-      <ul>
+      <ul class="flex-row">
         <li><a href="#" target="_blank">Advertising</a></li>
         <li><a href="#" target="_blank">Business</a></li>
         <li><a href="#" target="_blank">How Search works</a></li>
       </ul>
-      <ul>
+      <ul class="flex-row">
         <li><a href="#" target="_blank">Privacy</a></li>
         <li><a href="#" target="_blank">Terms</a></li>
         <li><a href="#" target="_blank">Settings</a></li>
