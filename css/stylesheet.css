@@ -58,6 +58,8 @@ ul li a {
 .main-buttons {
   display: flex;
   flex-flow: row nowrap;
+  justify-content: center;
+  font-size:
 }
 .main-btn {
   background: #f2f2f2;
@@ -65,9 +67,16 @@ ul li a {
   border-radius: 4px;
   margin: 11px 4px;
   font-family: arial,sans-serif;
+  font-size: .9rem;
   color: #5F6368;
+  border-style: none;
 }
-.search-form input {
+.search-form {
+  display: flex;
+  flex-flow: column;
+  justify-content: center;
+}
+.search-form input[type=search] {
   width: 35vw;
   min-width: 35ch;
   height: 2ch;
