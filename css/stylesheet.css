@@ -46,6 +46,7 @@ ul li a {
   display: flex;
   flex-flow: row nowrap;
   justify-content: space-between;
+  align-content: flex-start;
 }
 .grid-ico {
   width: 20px;
