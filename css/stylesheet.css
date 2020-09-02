@@ -29,7 +29,7 @@ img {
   font-size: .9rem;
   color: white;
   padding: 1em;
-  margin: 1rem 2rem;
+  margin: 1rem;
   background: -webkit-linear-gradient(top,#4387fd,#4683ea);
   text-decoration: none;
   font-weight: bold;
@@ -38,7 +38,7 @@ img {
 }
 /* Main layout */
 ul li a {
-  margin: 1.8rem 2rem 1rem;
+  margin: 1.8rem .8rem 1rem;
   font-size: .8rem;
   color: black;
 }
