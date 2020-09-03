@@ -30,7 +30,7 @@ img {
   color: white;
   padding: 1em;
   margin: 1rem;
-  background: -webkit-linear-gradient(top,#4387fd,#4683ea);
+  background: linear-gradient(top,#4387fd,#4683ea);
   text-decoration: none;
   font-weight: bold;
   border-radius: 4px;
